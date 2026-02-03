@@ -1,0 +1,88 @@
+.container{
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 0 20px;
+    
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white;    
+    cursor: pointer;     
+  }
+.logo{
+    margin: 20px;
+    font-size: 29px;
+}
+.menu{
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;  
+    text-decoration: none;
+}
+
+  
+  .menu.active {
+    color: white;
+   
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+.menubar{
+  
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.theme{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    gap: 0px;
+    
+    margin: 20px;
+    font-size: 17px;  
+      
+}
+.theme p{
+   margin-left: 25px;
+}
+
+
+.theme-icon{
+    width: 30px;         
+    height: 30px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+.home-title{
+    color: navy;
+    font-size: 25px;
+    margin:20px 0px 20px 0px;
+    text-align: center;
+    
+}
+
+.admin{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: navy;
+    font-weight: 500;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}

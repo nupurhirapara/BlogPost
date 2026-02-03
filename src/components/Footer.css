@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  height: 10%;
+  padding: 14px 0;
+  background-color: navy;
+  color: #f1f5f9;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+}
+
+footer b {
+  color:white;
+  font-weight: 600;
+}
+.nav-light{
+  background-color: rgb(88, 88, 160);
+}
+.nav-dark{
+  background:#8ab4b4;
+}
